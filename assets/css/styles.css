@@ -1,4 +1,106 @@
-.social-network__icon
+:root {
+  --main-color: hsl(223, 87%, 63%);
+  --gray: hsl(0, 0%, 59%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 60%;
+  margin: 5rem auto 0;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.text--gray {
+  color: var(--gray);
+}
+
+.text--light {
+  font-weight: 300;
+}
+
+.text--bold{
+  font-weight: 700;
+}
+.email-form {
+  text-align: center;
+}
+
+.form__input,
+.submit-button {
+  padding: 1em;
+  border-radius: 1.5em;
+}
+
+.form__input {
+  border: 1px solid var(--gray);
+  margin-right: 1em;
+  width: 60%;
+}
+
+.form__input::placeholder{
+  color: var(--gray);
+}
+
+.submit-button {
+  width: 20%;
+  color: white;
+  background-color: var(--main-color);
+  border: none;
+  box-shadow: 0px 5px 3px hsl(223, 100%, 88%);
+}
+
+.submit-button:hover {
+  cursor: pointer;
+}
+
+.dashboard__image {
+  width: 100%;
+}
+
+
+.social-networks{
+  list-style: none;
+}
+
+.social-network__link{
+  display: inline-block;
+  margin-right: 2em;
+}
+.social-network__link a{
+  display: block;
+  text-decoration: none;
+  width: 50px;
+  height: 50px;
+  border: 1px solid var(--gray);
+  border-radius: 50%;
+  padding: 0.5em;
+}
+
+.social-network__link a:hover{
+  background-color: var(--main-color);
+  
+}
+.social-network__link a:hover .social-network__icon path
 {
-  height: 20px;
+  fill: white;
+}
+
+.social-network__name{
+  font-size: 0;
+}
+
+.social-network__icon {
+  height: 25px;
+  fill: red;
+}
+
+.attribution a{
+  color: var(--main-color);
+  text-decoration: none;
+
 }
