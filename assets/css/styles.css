@@ -23,11 +23,12 @@ body {
   font-weight: 300;
 }
 
-.text--bold{
+.text--bold {
   font-weight: 700;
 }
 .email-form {
   text-align: center;
+  margin-bottom: 5rem;
 }
 
 .form__input,
@@ -42,7 +43,7 @@ body {
   width: 60%;
 }
 
-.form__input::placeholder{
+.form__input::placeholder {
   color: var(--gray);
 }
 
@@ -62,16 +63,15 @@ body {
   width: 100%;
 }
 
-
-.social-networks{
+.social-networks {
   list-style: none;
 }
 
-.social-network__link{
+.social-network__link {
   display: inline-block;
   margin-right: 2em;
 }
-.social-network__link a{
+.social-network__link a {
   display: block;
   text-decoration: none;
   width: 50px;
@@ -81,16 +81,14 @@ body {
   padding: 0.5em;
 }
 
-.social-network__link a:hover{
+.social-network__link a:hover {
   background-color: var(--main-color);
-  
 }
-.social-network__link a:hover .social-network__icon path
-{
+.social-network__link a:hover .social-network__icon path {
   fill: white;
 }
 
-.social-network__name{
+.social-network__name {
   font-size: 0;
 }
 
@@ -99,8 +97,7 @@ body {
   fill: red;
 }
 
-.attribution a{
+.attribution a {
   color: var(--main-color);
   text-decoration: none;
-
 }
