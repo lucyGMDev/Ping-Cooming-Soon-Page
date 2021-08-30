@@ -32,15 +32,16 @@
       <p>Subscribe and get notified</p>
     </header>
     <main class="page__content">
-      <form class="email-form">
-        <input
-          type="text"
-          name="email"
-          id="email-input"
-          class="form__input"
-          placeholder="Your email address..."
-          required
-        />
+      <form id="email-form" class="email-form">
+        <div id="email-block" class="input-block">
+          <input
+            type="text"
+            name="email"
+            id="email-input"
+            class="form__input"
+            placeholder="Your email address..."
+          />
+        </div>
         <input type="submit" value="Notify Me" class="submit-button" />
       </form>
       <img
@@ -115,5 +116,6 @@
       <p class="attribution">Coded by <a href="#">LucyGM</a>.</p>
       <p class="text--gray">&copy; Copyright Ping. All rights reserved.</p>
     </footer>
+    <script src="./js/index.js"></script>
   </body>
 </html>

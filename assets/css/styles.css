@@ -40,7 +40,27 @@ body {
 .form__input {
   border: 1px solid var(--gray);
   margin-right: 1em;
+  width: 100%;
+}
+.input-block {
+  position: relative;
+  display: inline-block;
   width: 60%;
+  margin-right: 1.5em;
+}
+
+.invalid-input{
+  border: 1px solid red;
+}
+
+.error-message{
+  position: absolute;
+  left: 2em;
+  bottom: -2em;
+  font-size: 0.75rem;
+  font-style: italic;
+  color: red;
+
 }
 
 .form__input::placeholder {
